@@ -26,3 +26,11 @@ puts "Oh no the list isn't sorted! Let's try this again"
 grocery_list.sort.each do |item|
 	puts "*"+item
 end
+
+puts "there is a global shortage of cookies, I better take them off the list"
+
+grocery_list.delete("cookies")
+
+grocery_list.sort.each do |item|
+	puts "*"+item
+end
