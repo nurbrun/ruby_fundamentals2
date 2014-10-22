@@ -26,4 +26,10 @@ end
 
 list_cohorts(students)
 
+total_students=0
+students.each do |key, value|
+	total_students+=value
+	
+end
 
+puts "the total is #{total_students}"
