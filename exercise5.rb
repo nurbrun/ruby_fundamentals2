@@ -5,4 +5,4 @@ def celcius(fahrenheit)
 	 (fahrenheit-32)*5/9
 end
 
-puts "#{input} in celcius is equivalent to #{celcius(input)} degrees celcius"
+puts "#{input} in Farenheit is equivalent to #{celcius(input)} degrees celcius"
