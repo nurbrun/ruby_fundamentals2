@@ -21,4 +21,4 @@ else
 end
 
 
-
+puts "the second item on the list is #{grocery_list[1]}"
