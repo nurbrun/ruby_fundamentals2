@@ -13,3 +13,5 @@ end
 list_cohorts(students)
 
 students [:cohort4]=42
+
+puts students.keys
