@@ -14,8 +14,16 @@ end
 
 list_cohorts(students)
 
+puts "the second cohort has been deleted, relist!"
 
+students.delete(:cohort2)
 
-puts students.keys
+def list_cohorts (data)
+
+	data.each {|key, value| puts "#{key}: #{value*105/100} students"}
+
+end	
+
+list_cohorts(students)
 
 
